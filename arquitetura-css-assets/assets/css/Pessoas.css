@@ -1,0 +1,19 @@
+.Pessoas {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+@media screen and (min-width: 0) {
+    .Pessoas {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .Pessoas {
+        flex-direction: row;
+    }
+
+}

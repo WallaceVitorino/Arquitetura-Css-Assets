@@ -1,0 +1,23 @@
+.Receitas {
+    background: #e5e5e5;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 0) {
+    .Receitas {
+        padding: 5rem 5rem 0 6rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .Receitas {
+        padding: 5rem 0 0 2.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .Receitas {
+        padding: 5rem 0 0 5rem;
+    }
+}

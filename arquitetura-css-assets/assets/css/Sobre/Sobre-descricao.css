@@ -1,0 +1,16 @@
+.Sobre-descricao {
+    color: #5d5d5d;
+    font-weight: 100;
+}
+
+@media screen and (min-width: 0) {
+    .Sobre-descricao {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .Sobre-descricao {
+        font-size: 1.75rem;
+    }
+}
